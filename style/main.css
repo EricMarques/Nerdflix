@@ -33,6 +33,12 @@ header .logo {
     margin-left: 5px;
 }
 
+header h2 a {
+    text-decoration: none;
+    color: var(--red);
+    margin-right: 10px;
+}
+
 header nav a {
     text-decoration: none;
     color: #AAA;
@@ -49,7 +55,7 @@ header nav a:hover {
 .principal-movie {
     font-size: 16px;
     background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/Livro-Boba-Fett.jpg);
-    height: 400px;
+    height: 700px;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -64,6 +70,12 @@ header nav a:hover {
 
 .principal-movie .title {
     margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.principal-movie .movie-title {
+    margin-top: -35%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
@@ -88,6 +100,16 @@ header nav a:hover {
     margin-right: 5px;
 }
 
+.button a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.button a:hover {
+    text-decoration: none;
+    color: var(--black);
+}
+
 .container {
     margin-left: 20px;
 }
@@ -104,4 +126,13 @@ header nav a:hover {
 
 .movies-carousel {
     margin-top: 10px;
+}
+
+.movie-trailer {
+    margin-top: 20px;
+    margin-left: 10%;
+    display: flex;
+    position: absolute;
+    width: 1000px;
+    height: 500px;
 }

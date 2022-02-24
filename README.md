@@ -1,4 +1,11 @@
 # Nerdflix
-Interface clonada do netflix
+Interface semelhante à do Netflix.
 
-Parte 8
+Criada no decorrer do Bootcamp Take Blip Web Developer da Digital Innovatio One(Dio)
+
+- Tecnologias utilizadas:
+    - HTML;
+    - CSS;
+    - JS;
+        + JQuery;
+        + OWL Carousel;
